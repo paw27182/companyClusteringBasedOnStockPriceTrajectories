@@ -5,6 +5,5 @@ dataset/data.csv
 
 test/.pytest_cache/
 test/__pycache__/
-ccbospt.png
 ccbospt.pptx
 companyClustering.ipynb
