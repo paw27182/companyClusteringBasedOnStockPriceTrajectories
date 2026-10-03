@@ -1,3 +1,7 @@
-matplotlib==3.11.8
-numpy==2.4.6
+kaleido==1.4.0
+matplotlib==3.11.2
+numpy==2.6.3
+pandas==3.0.6
+plotly==7.1.0
+pytest==9.1.1
 scikit-learn==1.8.0
