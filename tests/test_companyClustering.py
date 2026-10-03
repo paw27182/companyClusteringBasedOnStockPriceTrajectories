@@ -8,7 +8,7 @@ start example
 > pytest test_companyClustering.py::TestCCBOST
 > pytest test_companyClustering.py::TestCCBOST::test_fit  # class method test
 
-Update: September 30, 2026
+Update: October 3rd, 2026
 """
 import pandas as pd
 import pytest
@@ -41,7 +41,7 @@ class TestCCBOST():
         ccbost = CCBOST(df, model_path)
         pred, name_list = ccbost.fit_and_predict()
         
-        # assert len(pred) == 8
+        assert len(pred) == 8
         
         # クラスタ要素表示
         for i in range(pred.max() + 1): 
