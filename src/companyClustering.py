@@ -18,7 +18,7 @@ from sklearn.pipeline import Pipeline
 
 
 class CCBOST:
-    def __init__(self, df, model_dir="./model"):
+    def __init__(self, df, model_dir="../model"):
         # create mode save path
         self.model_path = os.path.join(model_dir, f"pipe_{sklearn.__version__}.pkl")
         
@@ -53,7 +53,7 @@ class CCBOST:
         return self.pred, self.name_list
     
     
-    def draw_scatter_diagram(self, output_dir="./output"):
+    def draw_scatter_diagram(self, output_dir="../output"):
         """Draw scatter diagram with two features"""
         features = self.df.columns
 
@@ -91,7 +91,7 @@ class CCBOST:
         plt.close()
         
         
-    def draw_3D_scatter_graph(self, output_dir=r"./output"):
+    def draw_3D_scatter_graph(self, output_dir=r"../output"):
         """Draw 3-D scatter graph with three features"""
 
         X_std = self.pipe["preprocessing"].transform(self.df)

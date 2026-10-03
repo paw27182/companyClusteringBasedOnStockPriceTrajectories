@@ -15,7 +15,7 @@
 * Install the prerequisite python libraries
 
 * Execute the program
-  * cd ./companyClusteringBasedOnStockPriceTrajectories
+  * cd ./companyClusteringBasedOnStockPriceTrajectories/src
   * python.exe app.py
 
 <br>
@@ -40,12 +40,12 @@
 | output/3DscatterDiagram.html | File | 3D scatter diagram |
 | output/3DscatterDiagram.png | File | |
 | output/kmeans_scatter_diagram.png | File | 2D scatter diagram |
+| src/\_\_init\_\_.py | File | |
+| src/app.py | File | main program |
+| src/companyClustering.py | File | CCBOSPT class module |
 | tests | Dir | |
 | tests/\_\_init\_\_.py | File | |
 | tests/test_companyClustering.py | File | CCBOSPT class test program |
-| \_\_init\_\_.py | File | |
-| app.py | File | main program |
-| companyClustering.py | File | CCBOSPT class module |
 | README.md | File ||
 | requirements.txt | File | prerequisite libraries |
 

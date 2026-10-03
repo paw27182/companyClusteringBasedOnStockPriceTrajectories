@@ -4,7 +4,7 @@ import sqlite3
 from companyClustering import CCBOST
 
 # データ準備
-with sqlite3.connect(r"./dataset/data.sqlite3") as conn:
+with sqlite3.connect(r"../dataset/data.sqlite3") as conn:
     df = pd.read_sql('SELECT * FROM stockprice;', conn)
 print(f"{df.shape= }")
 

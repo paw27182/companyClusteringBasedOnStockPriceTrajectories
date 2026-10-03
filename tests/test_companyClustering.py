@@ -15,7 +15,7 @@ import pytest
 import sqlite3
 from pathlib import Path
 
-from ..companyClustering import CCBOST
+from src.companyClustering import CCBOST
 
 @pytest.fixture()
 def sample_data():
