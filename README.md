@@ -22,7 +22,7 @@
 
 
 # System
-* OS: Windows 10/11, Ubuntu 20.04.6 LTS<br>
+* OS: Windows 11<br>
 * Python 3.13.14<br>
 * Python Libraries: See the requirements.txt file
 
